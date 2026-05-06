@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hebatollah Alayan - Software Engineering Portfolio">
+    <meta name="author" content="Hebatollah Alayan">
+    <title>Hebatollah Alayan | Software Engineering Portfolio</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- ==================== HEADER / NAVIGATION ==================== -->
+    <header id="header">
+        <nav id="navbar">
+            <div class="container nav-container">
+                <a href="#home" class="logo">
+                    <h1>HA<span class="logo-dot">.</span></h1>
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" data-section="about">About</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button id="darkModeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="hamburgerMenu" class="icon-btn hamburger" aria-label="Toggle menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+        
+        <!-- ==================== HERO SECTION ==================== -->
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <h1 class="hero-name">Hebatollah Alayan</h1>
+                    <h2 class="hero-title">Software Engineering Student</h2>
+                    <p class="hero-description">
+                        Passionate 4th-year Software Engineering student dedicated to building 
+                        innovative, scalable, and user-friendly web applications.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Get In Touch
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="mailto:Alayainhebatollah@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/hebatollah" class="social-link" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/hebatollah" class="social-link" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="tel:05385042982" class="social-link" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-placeholder">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator">
+                <i class="fas fa-chevron-down"></i>
+                <span>Scroll Down</span>
+            </a>
+        </section>
+        
+        <!-- ==================== ABOUT SECTION ==================== -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get To Know</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a dedicated <strong>Software Engineering</strong> student in my 
+                            <strong>fourth year</strong>, passionate about creating innovative 
+                            digital solutions. My focus is on full-stack web development, 
+                            where I combine clean code principles with modern design practices 
+                            to deliver impactful user experiences.
+                        </p>
+                        <p>
+                            I continuously seek to expand my knowledge in emerging technologies 
+                            and best practices, aiming to contribute meaningfully to the tech 
+                            industry.
+                        </p>
+                    </div>
+                    
+                    <!-- Personal Info Table -->
+                    <div class="personal-info-container">
+                        <h3 class="info-title">Personal Information</h3>
+                        <table class="personal-info-table">
+                            <tbody>
+                                <tr>
+                                    <td class="info-label"><i class="fas fa-user"></i> Full Name</td>
+                                    <td class="info-value">Hebatollah Alayan</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-label"><i class="fas fa-graduation-cap"></i> Field</td>
+                                    <td class="info-value">Software Engineering</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-label"><i class="fas fa-calendar-alt"></i> Academic Year</td>
+                                    <td class="info-value">4th Year</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-label"><i class="fas fa-phone"></i> Phone</td>
+                                    <td class="info-value"><a href="tel:05385042982">05385042982</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="info-label"><i class="fas fa-envelope"></i> Email</td>
+                                    <td class="info-value"><a href="mailto:Alayainhebatollah@gmail.com">Alayainhebatollah@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="info-label"><i class="fas fa-map-marker-alt"></i> Location</td>
+                                    <td class="info-value">Available for remote & on-site</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== PROJECTS SECTION ==================== -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My Recent Work</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <!-- Dynamic Projects loaded via AJAX -->
+                <div id="projectsContainer" class="projects-grid">
+                    <!-- Loading State -->
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Loading projects...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== SKILLS SECTION ==================== -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technologies I Use</span>
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Skill Card 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="95" style="--skill-width: 95%;">
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 2 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="90" style="--skill-width: 90%;">
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 3 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="85" style="--skill-width: 85%;">
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 4 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-php"></i></div>
+                        <h3 class="skill-name">PHP</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="80" style="--skill-width: 80%;">
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 5 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3 class="skill-name">MySQL</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="85" style="--skill-width: 85%;">
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 6 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h3 class="skill-name">React</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="75" style="--skill-width: 75%;">
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 7 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h3 class="skill-name">Git & GitHub</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="88" style="--skill-width: 88%;">
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill Card 8 -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                        <h3 class="skill-name">REST APIs</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="82" style="--skill-width: 82%;">
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info-cards">
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p>Alayainhebatollah@gmail.com</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h4>Phone</h4>
+                            <p>05385042982</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-clock"></i>
+                            <h4>Availability</h4>
+                            <p>Sun - Thu, 9AM - 6PM</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form with Client-Side Validation -->
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <input type="hidden" name="csrf_token" id="csrfToken" value="">
+                        
+                        <div class="form-row">
+                            <div class="form-group" id="nameGroup">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-user input-icon"></i>
+                                    <input type="text" id="name" name="name" placeholder="Enter your full name" required minlength="2" maxlength="100">
+                                </div>
+                                <span class="error-message" id="nameError"></span>
+                                <span class="success-icon"><i class="fas fa-check-circle"></i></span>
+                            </div>
+                            
+                            <div class="form-group" id="emailGroup">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-envelope input-icon"></i>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                </div>
+                                <span class="error-message" id="emailError"></span>
+                                <span class="success-icon"><i class="fas fa-check-circle"></i></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group" id="subjectGroup">
+                            <label for="subject">Subject</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-heading input-icon"></i>
+                                <input type="text" id="subject" name="subject" placeholder="Subject of your message" maxlength="200">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group" id="messageGroup">
+                            <label for="message">Your Message <span class="required">*</span></label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-comment-dots input-icon"></i>
+                                <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required minlength="10" maxlength="1000"></textarea>
+                            </div>
+                            <span class="error-message" id="messageError"></span>
+                            <span class="char-counter" id="charCounter">0 / 1000</span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader" style="display: none;"><i class="fas fa-spinner fa-spin"></i></span>
+                        </button>
+                        
+                        <div id="formFeedback" class="form-feedback" style="display: none;"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <!-- ==================== FOOTER ==================== -->
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <a href="#home" class="footer-logo">HA<span class="logo-dot">.</span></a>
+                <p class="footer-tagline">Hebatollah Alayan - Software Engineering Portfolio</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="footer-social-icons">
+                    <a href="mailto:Alayainhebatollah@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Hebatollah Alayan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ==================== BACK TO TOP BUTTON ==================== -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- ==================== IMAGE SLIDER MODAL ==================== -->
+    <div id="imageModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h3 id="modalTitle" class="sr-only">Project Image Gallery</h3>
+            <div class="slider">
+                <div class="slider-track" id="sliderTrack">
+                    <!-- Slides injected via JavaScript -->
+                </div>
+                <button class="slider-btn slider-prev" id="prevSlide" aria-label="Previous image">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn slider-next" id="nextSlide" aria-label="Next image">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="slider-dots" id="sliderDots">
+                    <!-- Dots injected via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="js/main.js"></script>
+</body>
+</html>
