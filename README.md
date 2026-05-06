@@ -44,41 +44,6 @@ A professional **Full-Stack Web Portfolio** built as part of the Software Engine
 
 ---
 
-## 📁 Project Structure
-
-\`\`\`
-portfolio/
-├── index.html                    # Main portfolio page
-├── css/
-│   └── style.css                 # External stylesheet
-├── js/
-│   └── main.js                   # Client-side JavaScript
-├── includes/
-│   ├── config.php                # Database configuration
-│   ├── contact.php               # Contact form handler
-│   └── fetch_projects.php        # Projects AJAX endpoint
-├── admin/
-│   ├── login.php                 # Admin authentication
-│   ├── dashboard.php             # Admin dashboard
-│   ├── manage_projects.php       # Project CRUD
-│   ├── manage_messages.php       # Messages viewer
-│   ├── logout.php                # Session destruction
-│   ├── includes/sidebar.php      # Admin navigation
-│   ├── css/admin.css             # Admin styles
-│   ├── js/admin.js               # Admin JavaScript
-│   └── ajax/                     # AJAX endpoints
-│       ├── get_projects.php
-│       ├── get_project.php
-│       ├── save_project.php
-│       ├── delete_project.php
-│       ├── get_messages.php
-│       └── get_stats.php
-└── database/
-    └── portfolio_db.sql          # Database export file
-\`\`\`
-
----
-
 ## 🗄️ Database Setup
 
 1. Create a MySQL database named `portfolio_db`
